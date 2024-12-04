@@ -37,7 +37,7 @@ def get_value_from_package_info(line, value, old_value):
 PACKAGE_NAME = "text_log_check"
 
 PROJECT_URLS = {
-    'Documentation': 'https://github.com/LibSecSource/text-log-check',
+    'Documentation': 'https://libsecsource.github.io/text-log-check/',
     'Source': 'https://github.com/LibSecSource/text-log-check',
     'Tracker': 'https://github.com/LibSecSource/text-log-check/issues',
     'Release notes': 'https://github.com/LibSecSource/text-log-check/releases',
