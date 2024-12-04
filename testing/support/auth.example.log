@@ -1,0 +1,14 @@
+Dec  4 12:05:23 yourhostname sshd[12345]: Accepted password for user1 from 192.168.1.100 port 22 ssh2
+Dec  4 12:05:23 yourhostname sshd[12345]: pam_unix(sshd:session): session opened for user user1 by (uid=0)
+Dec  4 12:10:42 yourhostname sshd[12345]: Received signal 15; terminating.
+Dec  4 12:10:42 yourhostname sshd[12345]: pam_unix(sshd:session): session closed for user user1
+Dec  4 12:12:02 yourhostname sshd[23456]: Accepted password for user2 from 192.168.1.101 port 22 ssh2
+Dec  4 12:12:02 yourhostname sshd[23456]: pam_unix(sshd:session): session opened for user user2 by (uid=0)
+Dec  4 12:20:15 yourhostname sshd[23456]: Received signal 15; terminating.
+Dec  4 12:20:15 yourhostname sshd[23456]: pam_unix(sshd:session): session closed for user user2
+Dec  4 12:22:18 yourhostname systemd[1]: Started Session 5 of user user1.
+Dec  4 12:25:42 yourhostname systemd[1]: Stopping Session 5 of user user1.
+Dec  4 12:25:42 yourhostname systemd[1]: Stopped Session 5 of user user1.
+Dec  4 12:26:10 yourhostname systemd[1]: Started Session 6 of user user2.
+Dec  4 12:28:05 yourhostname systemd[1]: Stopping Session 6 of user user2.
+Dec  4 12:28:05 yourhostname systemd[1]: Stopped Session 6 of user user2.

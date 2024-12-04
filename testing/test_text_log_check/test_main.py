@@ -1,7 +1,6 @@
 """
 Test main
 """
-import os
 from text_log_check import exists
 
 
