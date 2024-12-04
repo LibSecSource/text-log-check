@@ -90,11 +90,11 @@ Be free to use, fork, clone and contribute.
 ## Features
 
 - Check if log file exists
+- Read tail of log file
 - Check if user can change log file (Plan)
 - Check if user can delete log file (Plan)
 - Check if user can clear log file (Plan)
 - Search text in log file (Plan)
-- Read tail of log file (Plan)
 - Modify log file (Plan)
 - Clear log file (Plan)
 
@@ -121,9 +121,10 @@ See more in [Full Documentation](https://libsecsource.github.io/text-log-check/i
 ## Quickstart
 
 ```python
-from text_log_check import exists
+from text_log_check import exists, get_tail_of_log  # pylint: disable=import-outside-toplevel
 
 print(exists('/var/log/auth.log'))
+print(get_tail_of_log('var/log/auth.log', 5))
 ```
 
 ### More examples in [Full Documentation][documentation_path]
