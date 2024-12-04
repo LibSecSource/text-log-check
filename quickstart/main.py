@@ -5,9 +5,9 @@ Quickstart examples
 
 def main():
     """
-    PyGenesis simple usage
+    TextLogCheck simple usage
     :return:
     """
-    from pygenesis import info  # pylint: disable=import-outside-toplevel
+    from text_log_check import info  # pylint: disable=import-outside-toplevel
 
     print(info())

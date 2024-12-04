@@ -34,14 +34,14 @@ def get_value_from_package_info(line, value, old_value):
     return None
 
 
-PACKAGE_NAME = "pygenesis"
+PACKAGE_NAME = "text_log_check"
 
 PROJECT_URLS = {
-    'Documentation': 'https://pygenesis.libresource.info',
-    'Source': 'https://github.com/libresource/pygenesis',
-    'Tracker': 'https://github.com/libresource/pygenesis/issues',
-    'Release notes': 'https://github.com/libresource/pygenesis/releases',
-    'Changelog': 'https://github.com/libresource/pygenesis/releases',
+    'Documentation': 'https://github.com/LibSecSource/text-log-check',
+    'Source': 'https://github.com/LibSecSource/text-log-check',
+    'Tracker': 'https://github.com/LibSecSource/text-log-check/issues',
+    'Release notes': 'https://github.com/LibSecSource/text-log-check/releases',
+    'Changelog': 'https://github.com/LibSecSource/text-log-check/releases',
     'Download': 'https://pypi.org/project/pygenesis/',
 }
 
@@ -73,14 +73,16 @@ setup(
     ),
 
     include_package_data=True,
-    license="MIT",
-    description="Python package repository template",
+    # license="MIT",
+    description="A Python package for analyzing, verifying, "
+                "and monitoring text-based log files. Includes tools for file existence checks, "
+                "log tail analysis, text searches, and more.",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    url="https://github.com/libresource/pygenesis",
+    url="https://github.com/LibSecSource/text-log-check",
     author="quillcraftsman",
     author_email="quill@craftsman.lol",
-    keywords=["python", "package", "template-repository"],
+    keywords=["python", "security", "log-analysis"],
     # install_requires=[
     #     'Django==4.2.6',
     # ],
@@ -88,12 +90,16 @@ setup(
     classifiers=[
         f'Development Status :: {package_status}',
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: System Administrators",
+        "License :: OSI Approved",
+        "License :: Public Domain",
+        "License :: Other/Proprietary License",
         "Programming Language :: Python :: 3",
-        'Environment :: Console',
+        # 'Environment :: Console',
         "Operating System :: OS Independent",
-        "Topic :: Software Development",
-        "Topic :: Software Development :: Libraries",
+        "Topic :: Security",
+        "Topic :: System :: Monitoring",
+        "Topic :: Utilities",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     project_urls= PROJECT_URLS,

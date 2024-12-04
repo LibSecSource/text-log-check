@@ -37,4 +37,4 @@ sphinx-help:
 	make help -f Sphinxfile
 
 package_docs:
-	sphinx-apidoc -o docs/package pygenesis/
+	sphinx-apidoc -o docs/package text_log_check/

@@ -1,6 +1,6 @@
 [Main points](https://github.com/libresource/open-source-checklist#main-points)
 - [x] [Open Source Project Checklist](https://github.com/libresource/open-source-checklist#open-source-project-checklist)
-- [x] [Existing Analogues](https://github.com/libresource/open-source-checklist#existing-analogues)
+- [ ] [Existing Analogues](https://github.com/libresource/open-source-checklist#existing-analogues)
 - [x] [Good Project Name](https://github.com/libresource/open-source-checklist#good-project-name)
 - [x] [Mission](https://github.com/libresource/open-source-checklist#mission)
 - [x] [State What the Project Is Free](https://github.com/libresource/open-source-checklist#state-what-the-project-is-free)
@@ -37,4 +37,4 @@
 - [x] Build
 - [x] Deploy
 - [x] Build and Deploy documentation
-- [x] [New User Greetings](https://github.com/libresource/open-source-checklist#new-user-greetings)
+- [ ] [New User Greetings](https://github.com/libresource/open-source-checklist#new-user-greetings)

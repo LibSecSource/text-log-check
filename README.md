@@ -1,66 +1,67 @@
-# PyGenesis
+# TextLogCheck
 
-Python package repository template
+A Python package for analyzing, verifying, and monitoring text-based log files. 
+Includes tools for file existence checks, log tail analysis, text searches, and more. 
 
 You can find **Full Project Documentation** [here][documentation_path]
 
 <hr>
 
 #### Workflows
-[![Tests](https://github.com/libresource/pygenesis/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/libresource/pygenesis/actions/workflows/run-tests.yml)
-[![Pylint](https://github.com/libresource/pygenesis/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/libresource/pygenesis/actions/workflows/lint.yml)
+[![Tests](https://github.com/LibSecSource/text-log-check/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/LibSecSource/text-log-check/actions/workflows/run-tests.yml)
+[![Pylint](https://github.com/LibSecSource/text-log-check/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/LibSecSource/text-log-check/actions/workflows/lint.yml)
 
 #### Package
-[![Version](https://img.shields.io/pypi/v/pygenesis.svg)](https://pypi.python.org/pypi/pygenesis/)
-[![Development Status](https://img.shields.io/pypi/status/pygenesis.svg)](https://pypi.python.org/pypi/pygenesis)
-[![Python version](https://img.shields.io/pypi/pyversions/pygenesis.svg)](https://pypi.python.org/pypi/pygenesis/)
-[![License](https://img.shields.io/pypi/l/pygenesis)](https://github.com/libresource/pygenesisblob/main/LICENSE)
-[![Wheel](https://img.shields.io/pypi/wheel/pygenesis.svg)](https://pypi.python.org/pypi/pygenesis/)
+[![Version](https://img.shields.io/pypi/v/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check/)
+[![Development Status](https://img.shields.io/pypi/status/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check)
+[![Python version](https://img.shields.io/pypi/pyversions/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check/)
+[![License](https://img.shields.io/pypi/l/text-log-check)](https://github.com/LibSecSource/text-log-checkblob/main/LICENSE)
+[![Wheel](https://img.shields.io/pypi/wheel/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check/)
 
 #### Support
 [![Documentation](https://img.shields.io/badge/docs-0094FF.svg)][documentation_path]
-[![Discussions](https://img.shields.io/badge/discussions-ff0068.svg)](https://github.com/libresource/pygenesis/discussions/)
-[![Issues](https://img.shields.io/badge/issues-11AE13.svg)](https://github.com/libresource/pygenesis/issues/)
+[![Discussions](https://img.shields.io/badge/discussions-ff0068.svg)](https://github.com/LibSecSource/text-log-check/discussions/)
+[![Issues](https://img.shields.io/badge/issues-11AE13.svg)](https://github.com/LibSecSource/text-log-check/issues/)
 
 #### Downloads
-[![Day Downloads](https://img.shields.io/pypi/dd/pygenesis)](https://pepy.tech/project/pygenesis)
-[![Week Downloads](https://img.shields.io/pypi/dw/pygenesis)](https://pepy.tech/project/pygenesis)
-[![Month Downloads](https://img.shields.io/pypi/dm/pygenesis)](https://pepy.tech/project/pygenesis)
-[![All Downloads](https://img.shields.io/pepy/dt/pygenesis)](https://pepy.tech/project/pygenesis)
+[![Day Downloads](https://img.shields.io/pypi/dd/text-log-check)](https://pepy.tech/project/text-log-check)
+[![Week Downloads](https://img.shields.io/pypi/dw/text-log-check)](https://pepy.tech/project/text-log-check)
+[![Month Downloads](https://img.shields.io/pypi/dm/text-log-check)](https://pepy.tech/project/text-log-check)
+[![All Downloads](https://img.shields.io/pepy/dt/text-log-check)](https://pepy.tech/project/text-log-check)
 
 #### Languages
-[![Languages](https://img.shields.io/github/languages/count/libresource/pygenesis)](https://github.com/libresource/pygenesis)
-[![Top Language](https://img.shields.io/github/languages/top/libresource/pygenesis)](https://github.com/libresource/pygenesis)
+[![Languages](https://img.shields.io/github/languages/count/LibSecSource/text-log-check)](https://github.com/LibSecSource/text-log-check)
+[![Top Language](https://img.shields.io/github/languages/top/LibSecSource/text-log-check)](https://github.com/LibSecSource/text-log-check)
 
 #### Development
-- [![Release date](https://img.shields.io/github/release-date/libresource/pygenesis
-)](https://github.com/libresource/pygenesis/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/libresource/pygenesis/main
-)](https://github.com/libresource/pygenesis)
-- [![Issues](https://img.shields.io/github/issues/libresource/pygenesis
-)](https://github.com/libresource/pygenesis/issues/)
-[![Closed Issues](https://img.shields.io/github/issues-closed/libresource/pygenesis
-)](https://github.com/libresource/pygenesis/issues/)
-- [![Pull Requests](https://img.shields.io/github/issues-pr/libresource/pygenesis
-)](https://github.com/libresource/pygenesis/pulls)
-[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed-raw/libresource/pygenesis
-)](https://github.com/libresource/pygenesis/pulls)
-- [![Discussions](https://img.shields.io/github/discussions/libresource/pygenesis
-)](https://github.com/libresource/pygenesis/discussions/)
+- [![Release date](https://img.shields.io/github/release-date/LibSecSource/text-log-check
+)](https://github.com/LibSecSource/text-log-check/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/LibSecSource/text-log-check/main
+)](https://github.com/LibSecSource/text-log-check)
+- [![Issues](https://img.shields.io/github/issues/LibSecSource/text-log-check
+)](https://github.com/LibSecSource/text-log-check/issues/)
+[![Closed Issues](https://img.shields.io/github/issues-closed/LibSecSource/text-log-check
+)](https://github.com/LibSecSource/text-log-check/issues/)
+- [![Pull Requests](https://img.shields.io/github/issues-pr/LibSecSource/text-log-check
+)](https://github.com/LibSecSource/text-log-check/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed-raw/LibSecSource/text-log-check
+)](https://github.com/LibSecSource/text-log-check/pulls)
+- [![Discussions](https://img.shields.io/github/discussions/LibSecSource/text-log-check
+)](https://github.com/LibSecSource/text-log-check/discussions/)
 
 [//]: # (#### Repository Stats)
 
-[//]: # ([![Stars]&#40;https://img.shields.io/github/stars/libresource/pygenesis)
+[//]: # ([![Stars]&#40;https://img.shields.io/github/stars/LibSecSource/text-log-check)
 
-[//]: # (&#41;]&#40;https://github.com/libresource/pygenesis&#41;)
+[//]: # (&#41;]&#40;https://github.com/LibSecSource/text-log-check&#41;)
 
-[//]: # ([![Contributors]&#40;https://img.shields.io/github/contributors/libresource/pygenesis)
+[//]: # ([![Contributors]&#40;https://img.shields.io/github/contributors/LibSecSource/text-log-check)
 
-[//]: # (&#41;]&#40;https://github.com/libresource/pygenesisgraphs/contributors&#41;)
+[//]: # (&#41;]&#40;https://github.com/LibSecSource/text-log-checkgraphs/contributors&#41;)
 
-[//]: # ([![Forks]&#40;https://img.shields.io/github/forks/libresource/pygenesis)
+[//]: # ([![Forks]&#40;https://img.shields.io/github/forks/LibSecSource/text-log-check)
 
-[//]: # (&#41;]&#40;https://github.com/libresource/pygenesis&#41;)
+[//]: # (&#41;]&#40;https://github.com/LibSecSource/text-log-check&#41;)
 
 <hr>
 
@@ -77,61 +78,50 @@ You can find **Full Project Documentation** [here][documentation_path]
 
 ## Mission
 
-PyGenesis is a comprehensive Python package template designed to kickstart your projects instantly. 
-With a clean and organized structure, it provides a hassle-free starting point for developers. 
-Effortlessly begin your Python endeavors, focusing on your code, not the setup. Jumpstart your creativity with PyGenesis.
+To provide a reliable, open-source Python solution for managing and analyzing text-based log files, 
+empowering developers, system administrators, and security professionals with tools to 
+ensure log integrity, streamline troubleshooting, and enhance system monitoring practices.
 
 ## Open Source Project
 
-This is the open source project with [MIT license](LICENSE). 
+This is the open source project with [Happy Code](LICENSE) license.
 Be free to use, fork, clone and contribute.
 
 ## Features
 
-- This README (Change it for your python project)
-- This template base on [libresource/open-source-checklist](https://github.com/libresource/open-source-checklist). 
-It contains may useful files for open source project: ([CHECKLIST.md](CHECKLIST.md), [CONTRIBUTING.md](CONTRIBUTING.md), 
-[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and much more). 
-- `setup.py` for build your package
-- `requirements.txt` and `dev-requirements.txt`
-- `Makefile` with main commands to work with the project
-  - run tests
-  - calculate coverage
-  - lint
-  - build and install package
-  - generate autodocumentation
-  - others
-- GitHub workflows 
-  - generate documentation
-  - run tests with coverage
-  - run linter
-  - publish your package in PyPi
-  - greetings for new contributors
+- Check if log file exists (Plan)
+- Check if user can change log file (Plan)
+- Check if user can delete log file (Plan)
+- Check if user can clear log file (Plan)
+- Search text in log file (Plan)
+- Read tail of log file (Plan)
+- Modify log file (Plan)
+- Clear log file (Plan)
 
 ## Requirements
 
-- pytest, pytest-cov, pylint, yamllint, sphinx, sphinx_rtd_theme
-- See more in [Full Documentation](https://pygenesis.libresource.info/about.html#requirements)
+- python >= 3
+- See more in [Full Documentation](https://libsecsource.github.io/text-log-check/about.html#requirements)
 
 ## Development Status
 
-- Package already available on [PyPi](https://pypi.org/project/pygenesis/)
-- See more in [Full Documentation](https://pygenesis.libresource.info/about.html#development-status)
+- Package already available on [PyPi](https://pypi.org/project/text-log-check/)
+- See more in [Full Documentation](https://libsecsource.github.io/text-log-check/about.html#development-status)
 
 ## Install
 
 ### with pip
 
 ```commandline
-pip install pygenesis
+pip install text-log-check
 ```
 
-See more in [Full Documentation](https://pygenesis.libresource.info/install.html)
+See more in [Full Documentation](https://libsecsource.github.io/text-log-check/install.html)
 
 ## Quickstart
 
 ```python
-from pygenesis import info
+from text_log_check import info
 
 print(info())
 ```
@@ -143,10 +133,10 @@ print(info())
 You are welcome! To easy start please check:
 - [Full Documentation][documentation_path]
 - [Contributing](CONTRIBUTING.md)
-- [Developer Documentation](https://pygenesis.libresource.info/dev_documentation.html)
+- [Developer Documentation](https://libsecsource.github.io/text-log-check/dev_documentation.html)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Security Policy](SECURITY.md)
 - [Governance](GOVERNANCE.md)
 - [Support](SUPPORT.md)
 
-[documentation_path]: https://pygenesis.libresource.info
+[documentation_path]: https://libsecsource.github.io/text-log-check/

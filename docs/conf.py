@@ -10,11 +10,11 @@ Configuration file for the Sphinx documentation builder.
 import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
-from pygenesis.package import name, version, status  # pylint: disable=wrong-import-position
+from text_log_check.package import name, version, status  # pylint: disable=wrong-import-position
 
 project = name  # pylint: disable=invalid-name
 author = 'quillcraftsman'  # pylint: disable=invalid-name
-copyright = f'2023, {author}'  # pylint: disable=redefined-builtin
+copyright = f'2023, {author}'  # pylint: disable=redefined-builtin, invalid-name
 release = version  # pylint: disable=invalid-name
 
 # -- General configuration ---------------------------------------------------
@@ -37,7 +37,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_rtd_theme'  # pylint: disable=invalid-name
 html_static_path = ['_static']
 
-rst_prolog = f"""
+# pylint: disable=invalid-name,trailing-whitespace
+rst_prolog = f"""  
 .. |development_status| replace:: {status}
 .. |project_name| replace:: {project}
 """

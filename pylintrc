@@ -1,2 +1,2 @@
 [MAIN]
-ignore-paths=./pygenesis/package.py
+ignore-paths=./text_log_check/package.py
