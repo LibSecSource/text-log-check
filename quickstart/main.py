@@ -8,6 +8,6 @@ def main():
     TextLogCheck simple usage
     :return:
     """
-    from text_log_check import info  # pylint: disable=import-outside-toplevel
+    from text_log_check import exists  # pylint: disable=import-outside-toplevel
 
-    print(info())
+    print(exists('/var/log/auth.log'))

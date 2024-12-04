@@ -1,4 +1,4 @@
 """
 TextLogCheck package
 """
-from .main import info
+from .main import exists

@@ -1,12 +1,14 @@
 """
 Main module
 """
+import os
 
 
-def info():
+def exists(path):
     """
-    TextLogCheck info
-    :return: TextLogCheck usage info
+    Log file exists
+    param: path - filepath
+    return: bool
     """
-    result = 'Visit: https://github.com/LibSecSource/text-log-check and enjoy yourself'
-    return result
+    print('EX', path)
+    return os.path.exists(path)

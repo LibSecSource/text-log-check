@@ -89,7 +89,7 @@ Be free to use, fork, clone and contribute.
 
 ## Features
 
-- Check if log file exists (Plan)
+- Check if log file exists
 - Check if user can change log file (Plan)
 - Check if user can delete log file (Plan)
 - Check if user can clear log file (Plan)
@@ -121,9 +121,9 @@ See more in [Full Documentation](https://libsecsource.github.io/text-log-check/i
 ## Quickstart
 
 ```python
-from text_log_check import info
+from text_log_check import exists
 
-print(info())
+print(exists('/var/log/auth.log'))
 ```
 
 ### More examples in [Full Documentation][documentation_path]

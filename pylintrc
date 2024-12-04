@@ -1,2 +1,4 @@
 [MAIN]
 ignore-paths=./text_log_check/package.py
+disable=
+    W0621, #  for pytest fixtures

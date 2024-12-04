@@ -1,13 +1,19 @@
 """
 Test main
 """
-from text_log_check import info
+from text_log_check import exists
 
 
-def test_info():
+def test_exists(auth_log_path):
     """
-    Test info
-    :return: None
+    success: file exists
     """
-    info_expected_text = 'Visit: https://github.com/LibSecSource/text-log-check and enjoy yourself'
-    assert info() == info_expected_text
+    assert exists(auth_log_path)
+
+
+def test_not_exists():
+    """
+    Test for exists
+    success: file not exists
+    """
+    assert not exists('/my/log/not/exists/some.log')
