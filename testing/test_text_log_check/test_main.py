@@ -55,3 +55,12 @@ def test_get_tail_of_log_file_big_n_lines(auth_log_path):
     # use tail function give big tail size
     log_tail = get_tail_of_log(auth_log_path, big_tail_size)
     assert all_lines == log_tail
+
+
+def test_get_tail_of_log_default_n_lines(auth_log_path):
+    """
+    Test get_tail_of_log
+    success: work without n_log param
+    """
+    get_tail_of_log(auth_log_path)
+    assert True
