@@ -15,7 +15,7 @@ You can find **Full Project Documentation** [here][documentation_path]
 [![Version](https://img.shields.io/pypi/v/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check/)
 [![Development Status](https://img.shields.io/pypi/status/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check)
 [![Python version](https://img.shields.io/pypi/pyversions/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check/)
-[![License](https://img.shields.io/pypi/l/text-log-check)](https://github.com/LibSecSource/text-log-checkblob/main/LICENSE)
+[![License](https://img.shields.io/pypi/l/text-log-check)](https://github.com/LibSecSource/text-log-check/blob/main/LICENSE)
 [![Wheel](https://img.shields.io/pypi/wheel/text-log-check.svg)](https://pypi.python.org/pypi/text-log-check/)
 
 #### Support
