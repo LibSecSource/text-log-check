@@ -27,12 +27,12 @@ Be free to use, fork, clone and contribute.
 Features
 --------
 
-- Check if log file exists (Plan)
+- Check if log file exists
+- Read tail of log file
 - Check if user can change log file (Plan)
 - Check if user can delete log file (Plan)
 - Check if user can clear log file (Plan)
 - Search text in log file (Plan)
-- Read tail of log file (Plan)
 - Modify log file (Plan)
 - Clear log file (Plan)
 
