@@ -2,7 +2,7 @@
 Test main
 """
 from pytest import raises
-from text_log_check import exists, get_tail_of_log, clear_log, is_modifiable
+from text_log_check import exists, tail, clear, is_modifiable
 
 
 def test_exists(auth_log_path):
@@ -22,10 +22,10 @@ def test_not_exists():
 
 def test_get_tail_of_log(auth_log_path):
     """
-    Test get_tail_of_log
+    Test tail
     success: get 2 end lines
     """
-    tail_lines = get_tail_of_log(auth_log_path, 2)
+    tail_lines = tail(auth_log_path, 2)
     assert [
                'Dec  4 12:28:05 yourhostname systemd[1]: Stopping Session 6 of user user2.',
                'Dec  4 12:28:05 yourhostname systemd[1]: Stopped Session 6 of user user2.',
@@ -34,16 +34,16 @@ def test_get_tail_of_log(auth_log_path):
 
 def test_get_tail_of_log_file_not_found():
     """
-    Test get_tail_of_log
+    Test tail
     error: file not found
     """
     with raises(FileNotFoundError):
-        get_tail_of_log('/my/log/not/exists/some.log', 2)
+        tail('/my/log/not/exists/some.log', 2)
 
 
 def test_get_tail_of_log_file_big_n_lines(auth_log_path):
     """
-    Test get_tail_of_log
+    Test tail
     success: got full file then n_lines > len file
     """
     # open and read full file
@@ -53,16 +53,16 @@ def test_get_tail_of_log_file_big_n_lines(auth_log_path):
 
     big_tail_size = len(all_lines) + 1
     # use tail function give big tail size
-    log_tail = get_tail_of_log(auth_log_path, big_tail_size)
+    log_tail = tail(auth_log_path, big_tail_size)
     assert all_lines == log_tail
 
 
 def test_get_tail_of_log_default_n_lines(auth_log_path):
     """
-    Test get_tail_of_log
+    Test tail
     success: work without n_log param
     """
-    get_tail_of_log(auth_log_path)
+    tail(auth_log_path)
     assert True
 
 
@@ -74,7 +74,7 @@ def test_clear_log(log_to_clear_path):
     with open(log_to_clear_path, 'r', encoding='utf-8') as f:
         assert 'Clear me' == f.read()
 
-    clear_log(log_to_clear_path)
+    clear(log_to_clear_path)
 
     with open(log_to_clear_path, 'r', encoding='utf-8') as f:
         assert '' == f.read()
