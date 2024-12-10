@@ -1,4 +1,4 @@
 """
 TextLogCheck package
 """
-from .main import exists, get_tail_of_log, clear_log, is_modifiable
+from .main import exists, tail, clear, is_modifiable

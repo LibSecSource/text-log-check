@@ -121,10 +121,12 @@ See more in [Full Documentation](https://libsecsource.github.io/text-log-check/i
 ## Quickstart
 
 ```python
-from text_log_check import exists, get_tail_of_log  # pylint: disable=import-outside-toplevel
+from text_log_check import exists, tail, clear, is_modifiable
 
-print(exists('/var/log/auth.log'))
-print(get_tail_of_log('var/log/auth.log', 5))
+if exists('/var/log/auth.log'):
+    print(tail('var/log/auth.log', 5))
+    if is_modifiable('var/log/auth.log'):
+        clear('var/log/auth.log')
 ```
 
 ### More examples in [Full Documentation][documentation_path]

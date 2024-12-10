@@ -14,14 +14,14 @@ def exists(path):
     return os.path.exists(path)
 
 
-def get_tail_of_log(file_path, n_lines=10):
+def tail(file_path, n_lines=10):
     """Return the last `n_lines` of a log file as a list of lines."""
 
     with open(file_path, 'r', encoding='utf-8') as file:
         return [line.strip() for line in deque(file, maxlen=n_lines)]
 
 
-def clear_log(file_path):
+def clear(file_path):
     """
     Clear log file
     """
@@ -35,5 +35,4 @@ def is_modifiable(file_path):
     """
     # Check if the current user has write access to the file
     result = os.access(file_path, os.W_OK)
-    print('RESULT', result)
     return result
