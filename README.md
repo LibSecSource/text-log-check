@@ -92,9 +92,8 @@ Be free to use, fork, clone and contribute.
 - Check if log file exists
 - Read tail of log file
 - Clear log file
-- Check if user can change log file (Plan)
+- Check if user can change log file
 - Check if user can delete log file (Plan)
-- Check if user can clear log file (Plan)
 - Search text in log file (Plan)
 - Modify log file (Plan)
 

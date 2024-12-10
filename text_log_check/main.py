@@ -27,3 +27,13 @@ def clear_log(file_path):
     """
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write('')
+
+
+def is_modifiable(file_path):
+    """
+    Is modifiable file
+    """
+    # Check if the current user has write access to the file
+    result = os.access(file_path, os.W_OK)
+    print('RESULT', result)
+    return result
