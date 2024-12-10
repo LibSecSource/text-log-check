@@ -19,3 +19,11 @@ def get_tail_of_log(file_path, n_lines=10):
 
     with open(file_path, 'r', encoding='utf-8') as file:
         return [line.strip() for line in deque(file, maxlen=n_lines)]
+
+
+def clear_log(file_path):
+    """
+    Clear log file
+    """
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write('')

@@ -2,7 +2,7 @@
 Test main
 """
 from pytest import raises
-from text_log_check import exists, get_tail_of_log
+from text_log_check import exists, get_tail_of_log, clear_log
 
 
 def test_exists(auth_log_path):
@@ -64,3 +64,17 @@ def test_get_tail_of_log_default_n_lines(auth_log_path):
     """
     get_tail_of_log(auth_log_path)
     assert True
+
+
+def test_clear_log(log_to_clear_path):
+    """
+    Test clear log
+    success: empty log
+    """
+    with open(log_to_clear_path, 'r', encoding='utf-8') as f:
+        assert 'Clear me' == f.read()
+
+    clear_log(log_to_clear_path)
+
+    with open(log_to_clear_path, 'r', encoding='utf-8') as f:
+        assert '' == f.read()
