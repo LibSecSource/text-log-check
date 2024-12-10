@@ -42,7 +42,7 @@ PROJECT_URLS = {
     'Tracker': 'https://github.com/LibSecSource/text-log-check/issues',
     'Release notes': 'https://github.com/LibSecSource/text-log-check/releases',
     'Changelog': 'https://github.com/LibSecSource/text-log-check/releases',
-    'Download': 'https://pypi.org/project/pygenesis/',
+    'Download': 'https://pypi.org/project/text-log-check/',
 }
 
 with open_local([PACKAGE_NAME, "package.py"]) as fp:
